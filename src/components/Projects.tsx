@@ -3,6 +3,14 @@ import { ArrowUpRight } from 'lucide-react';
 const projects = [
   {
     number: '01',
+    category: 'Backend · Database · Systems',
+    title: 'Double-Entry Ledger',
+    description: 'A correctness-focused financial ledger prototype using Python and PostgreSQL. It implements atomic double-entry transfers, idempotent retries, deterministic concurrency controls, immutable audit entries, and database-level invariants.',
+    technologies: ['Python', 'PostgreSQL', 'Psycopg', 'Docker', 'Pytest'],
+    github: 'https://github.com/Gurukiran-B/double-entry-ledger',
+  },
+  {
+    number: '02',
     category: 'AI · Systems',
     title: 'Carbon-Aware Sustainable Cooling System',
     description: 'A reinforcement-learning-driven cooling system with a digital twin. PPO learns continuous fan and pump control using a reward that balances energy consumption, carbon emissions, and temperature stability.',
@@ -10,15 +18,15 @@ const projects = [
     status: 'Currently Building',
   },
   {
-    number: '02',
+    number: '03',
     category: 'Mobile · Backend · ML',
     title: 'Traffica',
     description: 'Real-time traffic and delivery management system built around a Flutter client and FastAPI backend, combining route computation, traffic prediction, maps, weather data, and API-driven services.',
     technologies: ['Flutter', 'FastAPI', 'A*', 'Bellman–Ford', 'PyTorch'],
-    // No github link provided and user said "Never invent the URL."
+    github: 'https://github.com/Gurukiran-B/Traffica',
   },
   {
-    number: '03',
+    number: '04',
     category: 'Web · Backend · Database',
     title: 'EventTrack',
     description: 'A web-based event registration and management system designed to streamline event participation, registration data, and organizer workflows through a structured application.',
@@ -26,7 +34,7 @@ const projects = [
     github: 'https://github.com/Gurukiran-B/Event-track/tree/main/EvenTrack-main',
   },
   {
-    number: '04',
+    number: '05',
     category: 'AI · RAG · Safety',
     title: 'SafeLab Assistant',
     description: 'A RAG-based AI laboratory safety assistant that retrieves relevant SOPs using semantic search and generates context-aware guidance, including emergency detection and safety-focused responses.',

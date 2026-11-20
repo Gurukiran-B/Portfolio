@@ -22,6 +22,7 @@ A clean, responsive, and performance-optimized personal engineering portfolio fo
 
 ## Projects
 
+- **Double-Entry Ledger**
 - **Carbon-Aware Sustainable Cooling System** (Currently under development.)
 - **Traffica**
 - **EventTrack**
